@@ -1,0 +1,53 @@
+/* printer-friendly styles */
+
+@media print {
+	.noScreen {}
+		
+	.tab-content > .tab-pane {
+	    display: block !important;
+	    opacity: 1 !important;
+	    visibility: visible !important;
+		page-break-before: always;
+		page-break-inside: avoid;
+	}
+	.nav-tabs {display:none;}
+	#print-footer {
+	    display: block;
+	    position: fixed;
+	    bottom: 0;
+	    left:0;
+	}
+	
+	body {padding-bottom:50px}/* attempt to preserve space at bottom so content doesn't over-ride the footer */
+	
+	a[href^="http://"]:after, a[href^="ftp://"]:after {
+	  content: " (" attr(href) ")";
+	  color: blue;
+	  font-size: small;
+	}
+	.noPrint {
+	       display:none;
+	}
+	
+}
+
+@media screen {
+    .noPrint {}
+    .noScreen{display:none;}
+}
+
+
+/* 
+h3::after has been relocated to head.php 
+*/
+
+
+/*
+<style> 
+	@media print {
+		.nav-tabs {display:none;}
+		}
+	}
+	
+</style>
+*/
