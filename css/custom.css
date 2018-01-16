@@ -1,0 +1,61 @@
+/* Colors */
+
+:root {
+    --cerulean: #478ca7;
+    --cerulean-hover: #82b5c9; 
+    --lightBlue: #46b8da; 
+    --darkBlue: #0052cc; 
+    --lightGreen: #4ea500; 
+    --lightGreen-hover: #73c46c; 
+    --lightRed: #c13c40; 
+    --lightRed-hover: #cf8383; 
+}
+
+/* Navbar styles */
+.navbar-inverse{
+	background-color: var(--darkBlue);
+  }
+  
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav .navbar-inverse > li > a {
+    color: #FFF;
+}
+
+/* Button styles */
+.btn-primary {
+	color: #fff;
+	background-color: var(--darkBlue);
+	border-color: var(--lightBlue);
+	}
+	
+
+/* Carousel styles */
+	.carousel-indicators {
+	  bottom:-50px;
+	}
+	.carousel-indicators li {
+	  bottom:-50px;
+	  border-color: var(--darkBlue);
+	  background-color: #fff;
+	}
+	
+	.carousel-indicators .active {
+    background-color: var(--darkBlue);
+  }
+
+	.carousel-inner {
+   margin-bottom:50px;
+  }
+  
+.carousel-caption {
+      max-width: 550px;
+      padding: 0 20px;
+      margin:0 auto;
+      margin-top: 200px;
+      text-align:center;
+}
