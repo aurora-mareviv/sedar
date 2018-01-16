@@ -26,7 +26,9 @@ La página dispone de un espacio adecuado en el que poner esas propuestas:
 
 La gran ventaja sobre el email, es que en la próxima reunión, los cambios son mucho más fáciles de revisar y avanzar. Iré preparada para hacer cambios sobre la marcha en la reunión.
 
-En un hilo de email, a medida que se superponen los cambios es totalmente imposible encontrarlos, muchos se perderán. No enviéis propuestas de cambio por email.
+En un hilo de email, a medida que se superponen los cambios es totalmente imposible encontrarlos, muchos se perderán. 
+
+**No enviéis propuestas de cambio por email**.
 
 Para poder hacer comentarios debéis daros de alta como usuarios en https://github.com/ (es como darse de alta en el facebook). Luego ir al enlace de "issues" mencionado. 
 
