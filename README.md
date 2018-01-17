@@ -55,12 +55,12 @@ Los comentarios hacedlos igual en https://github.com/aurora-mareviv/sedar/issues
 
 ### Alternativa 3:
 
-Modificar el código fuente de la página directamente. y hacer una propuesta de fusión de contenido de vuestra versión con la mía (lo que llaman un "pull request"). 
+Modificar el código fuente de la página directamente. y hacer una propuesta de fusión de contenido de vuestra versión con la mía (lo que llaman un `pull request`). 
 Los pull request evidentemente son más rápidos de integrar en la página que si modifico yo el código manualmente (porque ya me lo dais hecho)  ;-)
 
 Si os añado como colaboradores podéis cambiar cosas directamente (creo). 
 
-En paralelo, sería bueno que alguien hiciese un inventario de todo lo que se quiere salvar de la página original de la SEDAR
+En paralelo, sería bueno que alguien hiciese un inventario de todo lo que se quiere salvar de la página original de la SEDAR. 
 
 ----------------
 Espero que este experimento de  "web development" de algún resultado, y nos de avances en el árbol de contenidos de cara a la próxima reunión en unos 15 días.  Y si no fuera así, no se ha perdido nada...
