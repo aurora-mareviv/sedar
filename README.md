@@ -1,6 +1,4 @@
-# sedar
-
-Boceto para &aacute;rbol de contenidos - Web SEDAR
+# Boceto para &aacute;rbol de contenidos - Web SEDAR
 
 > https://anescalc.github.io/sedar
 
