@@ -65,6 +65,5 @@ En paralelo, sería bueno que alguien hiciese un inventario de todo lo que se qu
 ----------------
 Espero que este experimento de  "web development" de algún resultado, y nos de avances en el árbol de contenidos de cara a la próxima reunión en unos 15 días.  Y si no fuera así, no se ha perdido nada...
 
-Os pido no os impacientéis conmigo si tardo unos días en acoger las modificaciones... si coincide un finde o una mala guardia...
+Os pido no os impacientéis conmigo si tardo unos días en acoger las modificaciones... si coincide un finde o una mala guardia... ;D
 
-Saludos cordiales
