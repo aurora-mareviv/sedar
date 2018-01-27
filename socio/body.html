@@ -1,0 +1,325 @@
+	
+    <div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12"> <!-- upper panel - page title -->
+				<div class="well text-center">
+					<h2> Formulario de Alta de Socio de la SEDAR </h2>
+				</div> <!--EOF well-->
+			</div> <!--EOF column-->
+		</div> <!--EOF row-->	
+	</div> <!--EOF container-->
+				
+    <div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-9 col-md-9"> <!-- divides between main (9) and lateral panel (3) -->
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="well">
+                            <div class="form-group ">
+                              <label class="control-label" for="nombre"> D/D&ntilde;a (M&eacute;dico) </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="nombre" value="" maxlength="80" placeholder="D/D&ntilde;a (M&eacute;dico)"> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+                            <div class="form-group ">
+                              <label class="control-label" for="nif"> NIF </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="nif" value="" maxlength="9" placeholder="NIF"> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+                            <div class="form-group">
+                              <label class="control-label" for="telefono"> Tel&eacute;fono </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="number" name="telefono" value="" min="0" max="999999999">
+                              </div>
+                            </div> <!--EOF form group--> 
+
+                            <div class="form-group ">
+                              <label class="control-label" for="email"> E-mail </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="email" value="" maxlength="50" placeholder="E-mail"> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+						</div> <!--EOF well-->
+					</div> <!--EOF column-->
+					
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="well">
+                            <div class="form-group ">
+                              <label class="control-label" for="domicilio"> Domicilio </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="domicilio" value="" maxlength="100" placeholder="Domicilio"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            
+
+                            <div class="form-group ">
+                              <label class="control-label" for="codPostal"> CP </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="codPostal" value="" maxlength="5" placeholder="CP"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group ">
+                              <label class="control-label" for="localidad"> Localidad </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="localidad" value="" maxlength="50" placeholder="Localidad"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group">
+                              <label class="control-label" for="provincia">Provincia</label>
+                              <div class="input-group">
+                                <select class="form-control input-sm" name="provincia" value="<?php echo $provincia; ?>"> 
+                                  <option value="" ></option>
+                                  <option value="A Coru&ntilde;a" >A Coru&ntilde;a</option>
+                                  <option value="&aacute;lava"  >&Aacute;lava</option>
+                                  <option value="Albacete" >Albacete</option>
+                                  <option value="Alicante"  >Alicante</option>
+                                  <option value="Almer&iacute;a" >Almer&iacute;a</option>
+                                  <option value="Asturias"  >Asturias</option>
+                                  <option value="&aacute;vila"  >&Aacute;vila</option>
+                                  <option value="Badajoz"  >Badajoz</option>
+                                  <option value="Islas Baleares"  >Islas Baleares</option>
+                                  <option value="Barcelona"  >Barcelona</option>
+                                  <option value="Burgos"  >Burgos</option>
+                                  <option value="C&aacute;ceres" >C&aacute;ceres</option>
+                                  <option value="C&aacute;diz"  >C&aacute;diz</option>
+                                  <option value="Cantabria"  >Cantabria</option>
+                                  <option value="Castell&oacute;n"  >Castell&oacute;n</option>
+                                  <option value="Ciudad Real"  >Ciudad Real</option>
+                                  <option value="C&oacute;rdoba" >C&oacute;rdoba</option>
+                                  <option value="Cuenca" >Cuenca</option>
+                                  <option value="Girona"  >Girona</option>
+                                  <option value="Granada"  >Granada</option>
+                                  <option value="Guadalajara" >Guadalajara</option>
+                                  <option value="Guip&uacute;zcoa" >Guip&uacute;zcoa</option>
+                                  <option value="Huelva" >Huelva</option>
+                                  <option value="Huesca"  >Huesca</option>
+                                  <option value="Ja&eacute;n" >Ja&eacute;n</option>
+                                  <option value="La Rioja"  >La Rioja</option>
+                                  <option value="Las Palmas"  >Las Palmas</option>
+                                  <option value="Le&oacute;n" >Le&oacute;n</option>
+                                  <option value="Lleida" >Lleida</option>
+                                  <option value="Lugo"  >Lugo</option>
+                                  <option value="Madrid"  >Madrid</option>
+                                  <option value="M&aacute;laga"  >M&aacute;laga</option>
+                                  <option value="Murcia" >Murcia</option>
+                                  <option value="Navarra"  >Navarra</option>
+                                  <option value="Orense"  >Orense</option>
+                                  <option value="Palencia"  >Palencia</option>
+                                  <option value="Pontevedra"  >Pontevedra</option>
+                                  <option value="Salamanca" >Salamanca</option>
+                                  <option value="Segovia" >Segovia</option>
+                                  <option value="Sevilla"  >Sevilla</option>
+                                  <option value="Soria"  >Soria</option>
+                                  <option value="Tarragona"  >Tarragona</option>
+                                  <option value="Santa Cruz de Tenerife"  >Santa Cruz de Tenerife</option>
+                                  <option value="Teruel"  >Teruel</option>
+                                  <option value="Toledo"  >Toledo</option>
+                                  <option value="Valencia"  >Valencia</option>
+                                  <option value="Valladolid"  >Valladolid</option>
+                                  <option value="Vizcaya"  >Vizcaya</option>
+                                  <option value="Zamora"  >Zamora</option>
+                                  <option value="Zaragoza" >Zaragoza</option>
+                                </select>
+                              </div>
+                            </div>  <!--EOF form group-->  
+							
+						</div> <!--EOF well-->
+					</div> <!--EOF column-->
+					
+				</div> <!--EOF row-->	
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="well">
+                            <div class="form-group ">
+                              <label class="control-label" for="universidad"> Universidad de licenciatura </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="universidad" value="" maxlength="100" placeholder="Universidad de licenciatura"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group">
+                              <label class="control-label" for="annusLicencia"> A&ntilde;o de licenciatura </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="number" name="annusLicencia" value="" min="1900" max="2100">
+                              </div>
+                            </div> <!--EOF form group--> 
+
+                            <div class="form-group">
+                              <div class="checkbox">
+                                <label><input type="checkbox" name="tituloSiNo" value="1" > &iquest;Posee el t&iacute;tulo en Anestesiolog&iacute;a y Reanimaci&oacute;n?</label> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group ">
+                              <label class="control-label" for="tiempoEspecialidad"> Tiempo que lleva ejerciendo la Especialidad </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="tiempoEspecialidad" value="" maxlength="100" placeholder="Tiempo que lleva ejerciendo la Especialidad"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group">
+                              <div class="checkbox">
+                                <label><input type="checkbox" name="dedicacionSiNo" value="1" > Dedida toda su actividad a la Anestesiolog&iacute;a?</label> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+                            <div class="form-group">
+                              <div class="checkbox">
+                                <label><input type="checkbox" name="compatidaSiNo" value="1" > La comparte con otra especialidad?</label> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+                            <div class="form-group ">
+                              <label class="control-label" for="otraEspecialidad"> Con cu&aacute;l? </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="otraEspecialidad" value="" maxlength="50" placeholder="Con cu&aacute;l?"> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+						</div> <!--EOF well-->
+					</div> <!--EOF column-->
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="well">
+
+                            <div class="form-group ">
+                              <label class="control-label" for="hospitalesTrabajado"> Hospitales y centros donde ha trabajado </label>
+                              <div class="input-group">
+                                <div class="input-group-addon">
+                                  <span class="glyphicon glyphicon-pushpin aria-hidden='true'"></span> 
+                                </div>
+                                <textarea class="form-control" type="text" name="hospitalesTrabajado" value="" maxlength="600" placeholder="Hospitales y centros donde ha trabajado" rows="16"></textarea> 
+                              </div>
+                            </div> <!--EOF form group-->
+						</div> <!--EOF well-->
+					</div> <!--EOF column-->
+					
+				</div> <!--EOF row-->	
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="well">
+                            <div class="form-group ">
+                              <label class="control-label" for="banco"> Domiciliaci&oacute;n Banco/Caja </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="banco" value="" maxlength="50" placeholder="Domiciliaci&oacute;n Banco/Caja"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group ">
+                              <label class="control-label" for="oficina"> Domicilio Oficina </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="oficina" value="" maxlength="100" placeholder="Domicilio Oficina"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group ">
+                              <label class="control-label" for="oficinaCP"> CP oficina </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="oficinaCP" value="" maxlength="5" placeholder="CP oficina"> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+						</div> <!--EOF well-->
+					</div> <!--EOF column-->
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="well">
+                            <div class="form-group ">
+                              <label class="control-label" for="oficinaCiudad"> Ciudad oficina </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="oficinaCiudad" value="" maxlength="50" placeholder="Ciudad oficina"> 
+                              </div>
+                            </div> <!--EOF form group-->  
+
+                            <div class="form-group ">
+                              <label class="control-label" for="CCC"> IBAN-C&oacute;digo cuenta cliente </label>
+                              <div class="input-group">
+                                <input class="form-control input-sm" type="text" name="CCC" value="" maxlength="24" placeholder="IBAN-C&oacute;digo cuenta cliente"> 
+                              </div>
+                            </div> <!--EOF form group-->
+							
+						</div> <!--EOF well-->
+					</div> <!--EOF column-->
+					
+				</div> <!--EOF row-->	
+		        <div class="form-group noPrint">
+		            <button type="submit" class="btn btn-primary btn-lg" name="submit" value="Submit">
+		              <i class="glyphicon glyphicon-floppy-disk"></i> Enviar
+		            </button> 
+		        </div>
+				
+			</div> <!--EOF column-->
+			
+			
+			
+			
+			<!-- LATERAL COLUMN -->
+			<div class="col-xs-12 col-sm-3 col-md-3">
+				
+				<div class="card">
+					<div class="well">
+						<img class="card-img-top" src="../img/230x160/sedar-oran-230x160.png" style="width:100%;" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">La SEDAR est&aacute; mudando su p&aacute;gina web</h5>
+							<p class="card-text">Las propuestas se incorporar&aacute;n al boceto web alojado <a href="https://github.com/aurora-mareviv/sedar">aqu&iacute;</a>.</p>
+						</div>
+					</div> <!--EOF well-->
+				</div> <!--EOF card-->
+				
+				<div class="card">
+					<div class="well">
+						<img class="card-img" style="width:100%;" src="../img/200x300/redar.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">REVISTAS</h5>
+							<p class="card-text">R.E.D.A.R. Revista Espa&ntilde;ola de Anestesiolog&iacute;a y Reanimaci&oacute;n </p>
+						</div>
+					</div> <!--EOF well-->
+				</div> <!--EOF card-->
+				
+				<div class="card">
+					<div class="well">
+						<img class="card-img" style="width:100%;" src="../img/200x300/guia-cx-abdomen.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">PUBLICACIONES</h5>
+							<p class="card-text">V&iacute;a Cl&iacute;nica Recuperaci&oacute;n Intensificada en Cirug&iacute;a Abdominal. </p>
+						</div>
+					</div> <!--EOF well-->
+				</div> <!--EOF card-->
+				
+				<div class="card">
+					<div class="well">
+						<img class="card-img" style="width:100%;" src="../img/200x300/hemost-219x300.png" alt="Card image">
+						<div class="card-body">
+					      <h5 class="card-title">REUNIONES</h5>
+					      <p class="card-text">VII Reuni&oacute;n Secci&oacute;n Hemostasia</p>
+					    </div>
+					</div> <!--EOF well-->
+				</div>	<!--EOF card-->
+				
+				<div class="card">
+					<div class="well">
+						<img class="card-img-top" src="../img/230x160/anestesia-500x300.jpg" style="width:100%;" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">OTRAS...</h5>
+							<p class="card-text">Blah Blah Etc Etc... </p>
+						</div>
+					</div> <!--EOF well-->
+				</div> <!--EOF card-->
+
+			</div> <!--EOF lateral column-->
+		</div> <!--EOF row-->
+		
+
+
+    </div> <!--EOF container-->
+	
+	
+	
