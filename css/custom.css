@@ -33,6 +33,13 @@
 	border-color: var(--lightBlue);
 	}
 	
+/* Alert styles */
+.alert-primary {
+	color: #fff;
+	background-color: var(--darkBlue);
+	border-color: var(--lightBlue);
+	}
+	
 
 /* Carousel styles */
 	.carousel-indicators {
